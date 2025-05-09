@@ -22,6 +22,13 @@ body{
     transform: scale(1.03);
 }
 
+.foto{
+    object-fit: cover;
+    width: 100px; 
+    height: 100px;
+    border-radius: 100%;
+    padding: 25%;
+}
 
 .botão{
     display: block;
@@ -83,6 +90,8 @@ body{
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+
  
 form{
     background: rgba(0, 0, 0, 0.6);
